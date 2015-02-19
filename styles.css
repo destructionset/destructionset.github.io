@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #0066FF;
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-size: 36px;
+  font-weight: bold;
+  color: #99CCFF;
+  border-width: 0 50px 0 50px;
+  border-style: solid;
+  border-color: #99CCFF;
+  padding: 0 10px 0 10px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#header {
+  text-align: center;
+}
+
+#topBorder {
+  position: fixed;
+  gop: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #99CCFF;
+}
+
+#topSpacer {
+  height: 60px;
+}
+
+#bottomBorder {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #99CCFF;
+}
+
+input {
+  background-color: #0066FF;
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-size: 36px;
+  font-weight: bold;
+  color: #99CCFF;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+}
