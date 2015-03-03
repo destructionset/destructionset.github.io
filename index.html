@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body ng-app="DestructionApp" ng-cloak> 
   <div id="topBorder"></div>
   <div id="header">
     <p id="topSpacer">&nbsp;</p>
@@ -15,10 +15,14 @@
     <p>64K RAM SYSTEM 38911 BASIC BYTES FREE </p>
   </div>
   READY.
-  <form action="index.html">
-    <input type="text" autofocus="autofocus" size="25"></input>
+  <form ng-controller="DestructionController" ng-submit="submit()"> 
+    <div id="response">
+      {{response}}
+    </div>
+    <input type="text" autofocus="autofocus" size="25" ng-model="command"></input>
   </form>
   <div id="bottomBorder"></div>
-  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
