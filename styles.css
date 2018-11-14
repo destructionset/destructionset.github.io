@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'C64_Pro_Mono-STYLE';
+  src: url('fonts/C64_Pro_Mono-STYLE.eot'); /* IE9 Compat Modes */
+  src: url('fonts/C64_Pro_Mono-STYLE.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/C64_Pro_Mono-STYLE.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/C64_Pro_Mono-STYLE.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/C64_Pro_Mono-STYLE.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/C64_Pro_Mono-STYLE.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -6,8 +16,8 @@ html {
 body {
   height: 100%;
   background-color: #0066FF;
-  font-family: 'Lucida Console', Monaco, monospace;
-  font-size: 36px;
+  font-family: 'C64_Pro_Mono-STYLE', Monaco, monospace;
+  font-size: 24px;
   font-weight: bold;
   color: #99CCFF;
   border-width: 0 50px 0 50px;
